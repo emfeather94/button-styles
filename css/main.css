@@ -12,17 +12,20 @@ div {
   text-align: center;
 }
 
-.btn {
-  color: #fff;
+a {
   text-decoration: none;
-  display: inline-block;
   padding: .5em .8em;
-  background-color: #333;
-  border-color: #333;
   text-align: center;
   margin: 0;
   border-radius: 8px;
   border-width: 3px;
+  display: inline-block;
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
   font-size: 1.125rem;
 }
 
@@ -39,14 +42,7 @@ div {
 
 .btn-subtle {
   color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: .5em .8em;
   background-color: #ccc;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: 1.125rem;
 }
 
@@ -63,12 +59,6 @@ div {
 
 .btn-ghost {
   color: #000;
-  text-decoration: none;
-  display: inline-block;
-  padding: .4em .8em;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
   border: 3px solid #000;
   font-size: 1.125rem;
 }
@@ -85,14 +75,7 @@ div {
 
 .btn-warning {
   color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: .5em .8em;
   background-color: #f33;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: 1.125rem;
 }
 
@@ -106,20 +89,14 @@ div {
   border-width: 3px;
 }
 
-.btn.btn-small {
+.btn-small {
   color: #fff;
-  text-decoration: none;
-  padding: .5em .8em;
   background-color: #333;
   border-color: #333;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: .875rem;
 }
 
-.btn.btn-small:hover {
+.btn-small:hover {
   background-color: #000;
   color: #fff;
   border-color: #000;
@@ -132,13 +109,7 @@ div {
 
 .btn-subtle.btn-small {
   color: #fff;
-  text-decoration: none;
-  padding: .5em .8em;
   background-color: #ccc;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: .875rem;
 }
 
@@ -156,10 +127,7 @@ div {
 .btn-ghost.btn-small {
   color: #000;
   text-decoration: none;
-  padding: .4em .8em;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
+  background-color: #fff;
   border: 3px solid #000;
   font-size: .875rem;
 }
@@ -176,13 +144,7 @@ div {
 
 .btn-warning.btn-small {
   color: #fff;
-  text-decoration: none;
-  padding: .5em .8em;
   background-color: #f33;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: .875rem;
 }
 
@@ -196,20 +158,14 @@ div {
   border-width: 3px;
 }
 
-.btn.btn-big {
+.btn-big {
   color: #fff;
-  text-decoration: none;
-  padding: .5em .8em;
   background-color: #333;
   border-color: #333;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: 1.5rem;
 }
 
-.btn-big.btn:hover {
+.btn-big:hover {
   background-color: #000;
   color: #fff;
   border-color: #000;
@@ -222,13 +178,7 @@ div {
 
 .btn-subtle.btn-big {
   color: #fff;
-  text-decoration: none;
-  padding: .5em .8em;
   background-color: #ccc;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: 1.5rem;
 }
 
@@ -245,11 +195,7 @@ div {
 
 .btn-ghost.btn-big {
   color: #000;
-  text-decoration: none;
-  padding: .4em .8em;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
+  background-color: #fff;
   border: 3px solid #000;
   font-size: 1.5rem;
 }
@@ -266,13 +212,7 @@ div {
 
 .btn-warning.btn-big {
   color: #fff;
-  text-decoration: none;
-  padding: .5em .8em;
   background-color: #f33;
-  text-align: center;
-  margin: 0;
-  border-radius: 8px;
-  border-width: 3px;
   font-size: 1.5rem;
 }
 
