@@ -18,7 +18,7 @@ div {
   padding: .4em .75em .3em;
   margin: 0;
   border-radius: 8px;
-  border-width: 3px solid #333;
+  border-width: 3px #333 solid;
   background: #333;
   color: #fff;
 }
@@ -38,7 +38,7 @@ div {
 }
 
 .btn-ghost {
-  border: 3px solid #000;
+  border-color: #000;
   background: #fff;
   color: #000;
 }
