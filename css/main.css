@@ -13,7 +13,7 @@ div {
 }
 
 .btn {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   text-decoration: none;
   padding: .4em .75em .3em;
   margin: 0;
@@ -39,7 +39,6 @@ div {
 }
 
 .btn-ghost {
-  border: 3px solid #000;
   background: #fff;
   color: #000;
 }
